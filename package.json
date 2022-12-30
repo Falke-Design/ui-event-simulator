@@ -1,0 +1,25 @@
+{
+  "name": "ui-event-simulator",
+  "version": "1.0.0",
+  "description": "Simulate browser UI-Events",
+  "main": "ui-event-simulator.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Falke-Design/ui-event-simulator.git"
+  },
+  "keywords": [
+    "events",
+    "javascript",
+    "emit",
+    "fire",
+    "ui-events",
+    "testing",
+    "browser"
+  ],
+  "author": "Florian Bischof",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Falke-Design/ui-event-simulator/issues"
+  },
+  "homepage": "https://github.com/Falke-Design/ui-event-simulator"
+}

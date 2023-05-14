@@ -1,8 +1,12 @@
 {
+  "type": "module",
   "name": "ui-event-simulator",
   "version": "1.0.0",
   "description": "Simulate browser UI-Events",
-  "main": "ui-event-simulator.js",
+  "exports": "./ui-event-simulator.js",
+  "engines": {
+    "node": ">=16"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/Falke-Design/ui-event-simulator.git"

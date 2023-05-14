@@ -281,5 +281,4 @@ const UIEventSimulator = {
   }
 };
 
-if (typeof window !== 'undefined') window.UIEventSimulator = UIEventSimulator;
-if (typeof module !== 'undefined') module.exports = UIEventSimulator;
+export default UIEventSimulator;

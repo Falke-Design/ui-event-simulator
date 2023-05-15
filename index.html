@@ -3,12 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>UIEvent Simulator</title>
+  <script type="importmap">
+    {
+      "imports": {
+        "ui-event-simulator": "/ui-event-simulator.js"
+      }
+    }
+  </script>
 </head>
 <body>
   <div id="test" style="width: 400px; height: 400px; background: red;" tabindex="1"></div>
+  <script type="module">
+    import UIEventSimulator from 'ui-event-simulator';
 
-  <script src="ui-event-simulator.js"></script>
-  <script>
     document.body.addEventListener('click',(e)=>alert(e.type+" Body"));
 
     var test = document.getElementById('test');

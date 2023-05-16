@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "ui-event-simulator",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Simulate browser UI-Events",
   "exports": "./ui-event-simulator.js",
   "engines": {
